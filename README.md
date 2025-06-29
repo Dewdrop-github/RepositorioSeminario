@@ -5,6 +5,7 @@ Una aplicación de mensajes basada en python que procesa en RabbitMQ y almacena 
 
 ## Arquitectura
 [ User ] --> [ Producer ] ---> [ Queu (RabbitMQ) ] ---> [ Consumer ]
+
     |                                          |
    └<-------- Respuesta --------(reply_to) <---┘
 
