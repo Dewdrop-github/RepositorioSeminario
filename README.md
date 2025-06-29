@@ -45,11 +45,11 @@ app_mensajes/
 
 
 ## Ejemplo de uso
-Productor: envía un mensaje de texto (ej. usuario escribe algo).
-Consumidor:
-Valida que el mensaje no supere 500 caracteres.
-Guarda el mensaje en PostgreSQL con un estado ('recibido' o 'rechazado').
-Retorna un "Recibido" o "Rechazado" (puede imprimirse o, en versión avanzada, enviarse por correo, socket, etc).
+* Productor: envía un mensaje de texto (ej. usuario escribe algo).
+* Consumidor:
+** Valida que el mensaje no supere los 500 caracteres.
+** Guarda el mensaje en PostgreSQL con un estado ('recibido' o 'rechazado').
+** Retorna un "Recibido" o "Rechazado" (puede imprimirse o, en versión avanzada, enviarse por correo, socket, etc).
 
 
 ## Notas adicionales
