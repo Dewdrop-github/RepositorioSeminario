@@ -14,6 +14,8 @@ Base de datos
 
 [ PostgreSQL ]
    ├── Tabla messages-----------> Guarda todos los mensajes
+
+   
    └── Tabla notifications------> Guarda logros como "5X5"
 
 ## Requisitos
