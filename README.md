@@ -13,10 +13,10 @@ Una aplicación de mensajes basada en python que procesa en RabbitMQ y almacena 
 Base de datos
 
 [ PostgreSQL ]
-   ├── Tabla messages-----------> Guarda todos los mensajes
+*   ├── Tabla messages-----------> Guarda todos los mensajes
 
    
-   └── Tabla notifications------> Guarda logros como "5X5"
+ *  └── Tabla notifications------> Guarda logros como "5X5"
 
 ## Requisitos
 - Docker
