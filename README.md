@@ -35,13 +35,13 @@ en localhost:5672
 ## RepositorioSeminario
 Seminario 2025
 app_mensajes/
-├── producer.py
-├── consumer.py
-├── db.py
-├── requirements.txt
-├── Dockerfile
-├── docker-compose.yml
-└── init.sql
+*├── producer.py
+*├── consumer.py
+*├── db.py
+*├── requirements.txt
+*├── Dockerfile
+*├── docker-compose.yml
+*└── init.sql
 
 
 ## Ejemplo de uso
