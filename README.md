@@ -45,10 +45,14 @@ app_mensajes/
 
 ## Ejemplo de uso
 * Productor: envía un mensaje de texto (ej. usuario escribe algo)
+Envía el mensaje como tarea a la cola message_queue
+Espera una respuesta del consumidor vía una cola de respuesta temporal
 * Consumidor:
 * 1) Valida que el mensaje no supere los 500 caracteres
 * 2) Guarda el mensaje en PostgreSQL con estado recibido o rechazado
 * 3) Retorna el estado por pnatalla
+ 
+  4) Ej: "[✓] Respuesta recibida: recibido"
 
 
 ## Notas adicionales
