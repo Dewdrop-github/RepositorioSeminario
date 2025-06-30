@@ -1,0 +1,6 @@
+services:
+  seminario:
+    image: seminario
+    build:
+      context: .
+      dockerfile: ./Dockerfile
